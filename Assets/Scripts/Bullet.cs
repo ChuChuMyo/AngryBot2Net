@@ -5,6 +5,8 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public GameObject effect;
+    // 총알을 발사한 플레이어의 고유번호
+    public int actorNumber;
 
     // Start is called before the first frame update
     void Start()
